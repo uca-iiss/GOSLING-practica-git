@@ -141,19 +141,3 @@ networks:
    ```
 
 ---
-
-## **Conclusión**
-✅ Se han configurado correctamente los entornos de **Drupal + MySQL** y **WordPress + MariaDB**.
-✅ Se han usado **redes personalizadas** para conectar los servicios.
-✅ Se ha probado la configuración y acceso a través de los puertos **81 (Drupal)** y **82 (WordPress)**.
-✅ Se ha asegurado la **persistencia de datos** con volúmenes.
-
-Si hay algún error, revisa los logs:
-```bash
-docker compose logs drupal
-```
-```bash
-docker compose logs wordpress
-```
-
-¡Todo listo! 🚀
